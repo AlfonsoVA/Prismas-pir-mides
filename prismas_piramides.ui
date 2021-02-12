@@ -6,12 +6,30 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>875</width>
-    <height>397</height>
+    <width>870</width>
+    <height>600</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>870</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>870</width>
+    <height>600</height>
+   </size>
+  </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Calculadora de volumen y área de prismas y piramides</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QGroupBox" name="prisma_box">
@@ -71,6 +89,7 @@
       <widget class="QLabel" name="base_b">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
         </font>
        </property>
@@ -83,6 +102,7 @@
       <widget class="QLabel" name="rectangular">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>11</pointsize>
         </font>
        </property>
@@ -101,6 +121,7 @@
       <widget class="QLabel" name="altura_p_3">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
         </font>
        </property>
@@ -113,6 +134,7 @@
       <widget class="QLabel" name="altura_p_2">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
         </font>
        </property>
@@ -125,6 +147,7 @@
       <widget class="QLabel" name="base_a">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
         </font>
        </property>
@@ -173,6 +196,7 @@
       <widget class="QLabel" name="apotema">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
         </font>
        </property>
@@ -185,6 +209,7 @@
       <widget class="QRadioButton" name="rad_areapri">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>12</pointsize>
         </font>
        </property>
@@ -197,6 +222,7 @@
       <widget class="QRadioButton" name="rad_volupri">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>12</pointsize>
         </font>
        </property>
@@ -216,6 +242,7 @@
       <widget class="QLabel" name="circular">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>12</pointsize>
         </font>
        </property>
@@ -244,6 +271,7 @@
       <widget class="QLabel" name="radio_prisma">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
         </font>
        </property>
@@ -266,6 +294,7 @@
       <widget class="QLabel" name="altura_p_1">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
         </font>
        </property>
@@ -288,6 +317,7 @@
       <widget class="QLabel" name="label">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
         </font>
        </property>
@@ -322,7 +352,10 @@
       <widget class="QLabel" name="apotema_3">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -334,7 +367,10 @@
       <widget class="QLabel" name="altura_p_5">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -346,7 +382,10 @@
       <widget class="QLabel" name="altura_p_4">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -379,7 +418,10 @@
       <widget class="QLabel" name="base_a_3">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -415,7 +457,10 @@
       <widget class="QLabel" name="base_b_2">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -427,7 +472,10 @@
       <widget class="QLabel" name="apotema_2">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -439,7 +487,10 @@
       <widget class="QLabel" name="radio_prisma_2">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -458,7 +509,10 @@
       <widget class="QLabel" name="circular_3">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="layoutDirection">
@@ -507,7 +561,10 @@
       <widget class="QLabel" name="circular_4">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="layoutDirection">
@@ -528,7 +585,10 @@
       <widget class="QLabel" name="label_2">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>10</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -547,7 +607,10 @@
       <widget class="QRadioButton" name="rad_volupira">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -559,7 +622,10 @@
       <widget class="QRadioButton" name="rad_areapira">
        <property name="font">
         <font>
+         <family>Cambria</family>
          <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -587,7 +653,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Piramide</string>
+     <string>Pirámide</string>
     </property>
    </widget>
    <widget class="QLabel" name="prisma_lb">
@@ -611,8 +677,262 @@
      <string>Prisma</string>
     </property>
    </widget>
+   <widget class="QGroupBox" name="gridGroupBox">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>419</y>
+      <width>851</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="resultados_box">
+     <item row="0" column="3">
+      <widget class="QLCDNumber" name="lcd_pir_cir">
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="digitCount">
+        <number>6</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLCDNumber" name="lcd_prism_cir">
+       <property name="acceptDrops">
+        <bool>false</bool>
+       </property>
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="digitCount">
+        <number>6</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="lb_pir_rec">
+       <property name="font">
+        <font>
+         <family>Cambria</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Pirámide rectangular:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLCDNumber" name="lcd_prism_rec">
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="digitCount">
+        <number>6</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="lb_prism_cir">
+       <property name="font">
+        <font>
+         <family>Cambria</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Prisma circular:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLCDNumber" name="lcd_pir_rec">
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="digitCount">
+        <number>6</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="lb_prism_rec">
+       <property name="font">
+        <font>
+         <family>Cambria</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Prisma rectangular:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="lb_pir_cir">
+       <property name="font">
+        <font>
+         <family>Cambria</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Pirámide circular:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="lb_prism_pho">
+       <property name="font">
+        <font>
+         <family>Cambria</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Prisma penta/hexa/hepta/octagonal:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLCDNumber" name="lcd_prism_pho">
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="digitCount">
+        <number>6</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="lb_pir_pho">
+       <property name="font">
+        <font>
+         <family>Cambria</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="lineWidth">
+        <number>1</number>
+       </property>
+       <property name="text">
+        <string>Pirámide penta/hexa/hepta/octagonal:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLCDNumber" name="lcd_pir_pho">
+       <property name="lineWidth">
+        <number>0</number>
+       </property>
+       <property name="digitCount">
+        <number>6</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="result_lb">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>390</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cambria</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Resultados</string>
+    </property>
+   </widget>
   </widget>
  </widget>
+ <tabstops>
+  <tabstop>ln_rad_pri</tabstop>
+  <tabstop>ln_h_pri</tabstop>
+  <tabstop>ln_bsa_pri</tabstop>
+  <tabstop>ln_hr_pri</tabstop>
+  <tabstop>ln_bsb_pri</tabstop>
+  <tabstop>cmb_p_h_o_pri</tabstop>
+  <tabstop>ln_ap_pri</tabstop>
+  <tabstop>ln_hp_pri</tabstop>
+  <tabstop>ln_ld_pri</tabstop>
+  <tabstop>rad_volupri</tabstop>
+  <tabstop>rad_areapri</tabstop>
+  <tabstop>btn_calcupri</tabstop>
+  <tabstop>ln_rad_piramid</tabstop>
+  <tabstop>ln_h_piramid</tabstop>
+  <tabstop>ln_bsa_piramid</tabstop>
+  <tabstop>ln_hr_piramid</tabstop>
+  <tabstop>ln_bsb_piramid</tabstop>
+  <tabstop>cmb_p_h_o_piramid</tabstop>
+  <tabstop>ln_ap_piramid</tabstop>
+  <tabstop>ln_hp_piramid</tabstop>
+  <tabstop>ln_ld_piramid</tabstop>
+  <tabstop>rad_volupira</tabstop>
+  <tabstop>rad_areapira</tabstop>
+  <tabstop>btn_calcupiramid</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

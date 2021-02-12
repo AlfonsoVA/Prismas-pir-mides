@@ -1,7 +1,10 @@
 # Prismas-piramides
- Programa que calcula (o debería calcular ._.) áreas y volúmenes de prismas y pirámides. <br />
- Version 1.0
-## Limitantes:
-Limitacion a 3 caracteres en inputs. <br /> 
-Resultados mostrados en consola; cada nueva orden borra la pantalla.  <br />
-TODO ES EN BASE A FIGURAS REGULARES.
+ Programa que calcula (o debería calcular) áreas y volúmenes de prismas y pirámides. <br />
+ Version 2.0:
+## Limitantes y actualizaciones:
+*  Limitacion a 3 cifras por input. <br /> 
+*  Manejo de tabs ordenado. <br />
+*  Resultados aparecen en ventana de la aplicación con limite de 6 caracteres por resultado. <br />
+*  Cambio de PyQt4 a PyQt5. <br />
+*  Tamaño de ventaja fijo.
+
